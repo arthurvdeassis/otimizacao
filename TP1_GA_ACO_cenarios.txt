@@ -1,0 +1,70 @@
+cenário 1
+grid_size = 100
+population_size = 50
+num_generations = 50
+mutation_rate = 0.05  # Ajustado para 5%
+crossover_rate = 0.7
+num_ants = 50
+num_iterations = 100
+alpha = 1.0
+beta = 2.0
+evaporation_rate = 0.5
+pheromone_constant = 1.0
+num_runs = 10
+
+cenário 2
+grid_size = 100
+population_size = 70  # Aumentar a população para 70
+num_generations = 30  # Reduzir o número de gerações para 30
+mutation_rate = 0.03  # 3% de mutação
+crossover_rate = 0.75  # 75% de taxa de cruzamento
+num_ants = 40  # Número de formigas (número par)
+num_iterations = 80  # Ajuste para número de iterações menor
+alpha = 1.5  # Aumentar a influência das feromônias
+beta = 1.5  # Diminuir a influência do valor das soluções
+evaporation_rate = 0.4  # Evaporação mais baixa
+pheromone_constant = 1.2  # Aumentar o valor de feromônio constante
+num_runs = 10
+
+
+cenário 3
+grid_size = 100
+population_size = 50  # População de 50 indivíduos
+num_generations = 50  # 50 gerações
+mutation_rate = 0.05  # 5% de mutação
+crossover_rate = 0.6  # 60% de taxa de cruzamento
+num_ants = 70  # Número de formigas (número par)
+num_iterations = 100  # Iterações do ACO padrão
+alpha = 1.0  # Padrão para ACO
+beta = 2.0  # Padrão para ACO
+evaporation_rate = 0.5  # Padrão de evaporação
+pheromone_constant = 1.0  # Padrão de feromônio constante
+num_runs = 10
+
+cenário 4
+grid_size = 100
+population_size = 30  # Menor população (30 indivíduos)
+num_generations = 10  # Reduzir o número de gerações para 10
+mutation_rate = 0.02  # 2% de mutação (mais conservador)
+crossover_rate = 0.7  # Taxa de cruzamento de 70%
+num_ants = 60  # Número de formigas (número par)
+num_iterations = 150  # Aumentar o número de iterações para o ACO
+alpha = 1.0  # Padrão de ACO
+beta = 3.0  # Aumentar a influência dos valores das soluções no ACO
+evaporation_rate = 0.6  # Aumentar a evaporação para forçar exploração
+pheromone_constant = 1.0  # Padrão de feromônio constante
+num_runs = 10
+
+cenário 5
+grid_size = 100
+population_size = 60  # População intermediária (60 indivíduos)
+num_generations = 40  # Número de gerações moderado (40)
+mutation_rate = 0.04  # 4% de mutação
+crossover_rate = 0.65  # 65% de taxa de cruzamento
+num_ants = 20  # Número de formigas (número par)
+num_iterations = 120  # Número de iterações intermediário para o ACO
+alpha = 0.8  # Reduzir a influência das feromônias no ACO
+beta = 2.5  # Aumentar o peso de qualidade das soluções
+evaporation_rate = 0.45  # Moderada evaporação
+pheromone_constant = 1.0  # Padrão de feromônio constante
+num_runs = 10
